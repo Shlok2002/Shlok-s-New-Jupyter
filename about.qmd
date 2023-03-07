@@ -1,6 +1,6 @@
 ---
 title: "About the Author"
-image: profile.jpg
+image: profile-pic-7.png
 about:
   template: jolla
   links:

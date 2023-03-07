@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Shlok Kamat">
+<meta name="dcterms.date" content="2022-12-15">
+<meta name="description" content="The what and how of factor investing">
+
+<title>Shlok’s Jupyter - Factor Investing</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Shlok’s Jupyter</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">About the Author</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Shlok2002"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/shlokkamat/"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Factor Investing</h1>
+                  <div>
+        <div class="description">
+          The what and how of factor investing
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">finance</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Shlok Kamat </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">December 15, 2022</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#what-are-the-factors" id="toc-what-are-the-factors" class="nav-link" data-scroll-target="#what-are-the-factors">What are the factors?</a></li>
+  <li><a href="#what-is-factor-investing" id="toc-what-is-factor-investing" class="nav-link" data-scroll-target="#what-is-factor-investing">What is Factor Investing?</a></li>
+  <li><a href="#macroeconomic-factors" id="toc-macroeconomic-factors" class="nav-link" data-scroll-target="#macroeconomic-factors">Macroeconomic Factors</a></li>
+  <li><a href="#style-factors" id="toc-style-factors" class="nav-link" data-scroll-target="#style-factors">Style factors</a>
+  <ul class="collapse">
+  <li><a href="#pros-of-factor-investing" id="toc-pros-of-factor-investing" class="nav-link" data-scroll-target="#pros-of-factor-investing">Pros of factor Investing</a></li>
+  <li><a href="#cons-of-factor-investing" id="toc-cons-of-factor-investing" class="nav-link" data-scroll-target="#cons-of-factor-investing">Cons of factor Investing</a></li>
+  <li><a href="#bottom-line" id="toc-bottom-line" class="nav-link" data-scroll-target="#bottom-line">Bottom-Line</a></li>
+  <li><a href="#faqs" id="toc-faqs" class="nav-link" data-scroll-target="#faqs">FAQs</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>We have heard multiple strategies to make money in the stock markets. One lesser-known investing strategy is factor investing. Factor investing is an investment approach that targets specific return drivers across asset classes.</p>
+</section>
+<section id="what-are-the-factors" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-the-factors">What are the factors?</h2>
+<p>Factors are the foundation of investing. They are broad, persistent drivers of returns across asset classes. Factors work to better capture the potential for excess returns and reduced risks. There are broadly two types of factors that have driven returns - macroeconomic factors, which capture broad risks across asset classes, and style factors, which help explain returns and risk within asset classes.</p>
+</section>
+<section id="what-is-factor-investing" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-factor-investing">What is Factor Investing?</h2>
+<p>Factor investing is designed to enhance diversification, generate above-market returns and manage risk. Portfolio diversification has long been a popular safety tactic, but diversification gains are lost if the chosen securities move in lockstep with the broader market. For example, an investor may select a mixture of stocks and bonds that all decline in value when certain market conditions arise. The good news is factor investing can offset potential risks by targeting broad, persistent, and long-recognized drivers of returns.</p>
+</section>
+<section id="macroeconomic-factors" class="level1">
+<h1>Macroeconomic Factors</h1>
+<ul>
+<li><p><strong>Economic Growth:</strong>&nbsp;The Gross Domestic Product (GDP) of a country, how well is the country poised to grow, what are the drivers of this growth, etc.?</p></li>
+<li><p><strong>Real rates:</strong>&nbsp;The risks and opportunities presented by the changes in interest rates, their effect on bond yields, and how one can maximise returns and reduce risks by dynamic allocation in interest rate-dependent asset classes.</p></li>
+<li><p><strong>Credit:</strong>&nbsp;How a business manages its credit, default probability, and ability to repay the debt on time play an important role while choosing asset classes.</p></li>
+<li><p><strong>Emerging Markets:</strong>&nbsp;Government stability and resource dependency are essential in making investment decisions.</p></li>
+</ul>
+</section>
+<section id="style-factors" class="level1">
+<h1>Style factors</h1>
+<ul>
+<li><p><strong>Value:</strong>&nbsp;It aims to capture excess returns from stocks with low prices relative to their fundamental value. This is commonly tracked by price to book, price to earnings, dividends, and free cash flow.</p></li>
+<li><p><strong>Size:</strong>&nbsp;Historically, portfolios consisting of small-cap stocks exhibit greater returns than portfolios with just large-cap stocks. Investors can capture size by looking at the market capitalization of a stock.</p></li>
+<li><p><strong>Momentum:</strong>&nbsp;Stocks that have outperformed in the past tend to exhibit strong returns going forward. A momentum strategy is grounded in relative returns from three months to one year.</p></li>
+<li><p><strong>Quality:</strong>&nbsp;It is defined by low debt, stable earnings, consistent asset growth, and strong corporate governance. Investors can identify quality stocks using standard financial metrics like a return to equity, debt to equity, and earnings variability.</p></li>
+<li><p><strong>Volatility:</strong>&nbsp;Empirical research suggests that stocks with low volatility earn greater risk-adjusted returns than highly volatile assets. Measuring standard deviation from a one- to three-year time frame is a standard method of capturing beta.</p></li>
+</ul>
+<section id="pros-of-factor-investing" class="level2">
+<h2 class="anchored" data-anchor-id="pros-of-factor-investing">Pros of factor Investing</h2>
+<ul>
+<li><p><strong>Tried and tested:</strong>&nbsp;The biggest pro of factor investing is that it has worked in the long term. Focusing on one factor at a time can help simplify the analysis process for investors who might otherwise get overwhelmed by thousands of fundamental and technical analysis metrics for each stock.</p></li>
+<li><p><strong>Diversified approach:</strong>&nbsp;Finally, different factors can have a relatively low correlation, allowing investors to potentially reduce their portfolios’ overall risk and volatility by diversifying based on several factors.</p></li>
+</ul>
+</section>
+<section id="cons-of-factor-investing" class="level2">
+<h2 class="anchored" data-anchor-id="cons-of-factor-investing">Cons of factor Investing</h2>
+<ul>
+<li><p><strong>Longer-term approach:</strong>&nbsp;Factor investing is a long-term strategy; investors shouldn’t necessarily expect outperformance over months or even years. In fact, it can take several years to even test a potential factor as a viable investment strategy. Just because a factor has worked in the past doesn’t mean it will continue to work in the future.</p></li>
+<li><p>Potential bias: Factor investors can also be prone to selection bias. If you back-test enough factors for outperformance, you will eventually find factors that have generated positive historical results simply by chance.</p></li>
+<li><p><strong>Unknown risks:</strong>&nbsp;Finally, correlations among different factors change over time, potentially creating more risk in a multifactor portfolio than investors realize.</p></li>
+</ul>
+</section>
+<section id="bottom-line" class="level2">
+<h2 class="anchored" data-anchor-id="bottom-line">Bottom-Line</h2>
+<p>It’s essential to remember that the factors are expected to outperform the broad market primarily over the long term. Each of these factors has extended periods in its history where it underperforms the general market or has significant drawdowns. One way managers try to get around this is by diversifying among the factors and using macroeconomic factors to construct their portfolios. This approach is called smart beta investing.</p>
+</section>
+<section id="faqs" class="level2">
+<h2 class="anchored" data-anchor-id="faqs">FAQs</h2>
+<p><strong>What is smart beta investing?</strong></p>
+<p>Smart beta investment portfolios are long-only rules-based investment strategies that aim to outperform a capitalization-weighted benchmark.</p>
+<p><strong>Is factor investing active or passive?</strong></p>
+<p>It is an investment strategy that combines active with passive styles of investing in order to capture excess returns at reduced risk.</p>
+<p><strong>How long should one be invested in factor investing portfolios?</strong></p>
+<p>An ideal timeline is long-term. This could be anytime from 5 years to a decade.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

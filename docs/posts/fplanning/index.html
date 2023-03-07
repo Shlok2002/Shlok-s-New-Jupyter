@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Shlok Kamat">
+<meta name="dcterms.date" content="2022-10-29">
+<meta name="description" content="A primer on financial planning">
+
+<title>Shlok’s Jupyter - Financial Planning</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Shlok’s Jupyter</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">About the Author</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Shlok2002"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/shlokkamat/"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Financial Planning</h1>
+                  <div>
+        <div class="description">
+          A primer on financial planning
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">finance</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Shlok Kamat </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 29, 2022</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#steps-to-build-the-plan" id="toc-steps-to-build-the-plan" class="nav-link" data-scroll-target="#steps-to-build-the-plan">Steps to Build the plan</a>
+  <ul class="collapse">
+  <li><a href="#what-is-my-net-worth" id="toc-what-is-my-net-worth" class="nav-link" data-scroll-target="#what-is-my-net-worth">What is my net worth?</a></li>
+  <li><a href="#what-are-my-goals" id="toc-what-are-my-goals" class="nav-link" data-scroll-target="#what-are-my-goals">What are my goals?</a></li>
+  <li><a href="#how-much-money-do-i-need" id="toc-how-much-money-do-i-need" class="nav-link" data-scroll-target="#how-much-money-do-i-need">How much money do I need?</a></li>
+  <li><a href="#how-much-risk-can-i-take" id="toc-how-much-risk-can-i-take" class="nav-link" data-scroll-target="#how-much-risk-can-i-take">How much risk can I take?</a></li>
+  <li><a href="#where-should-i-invest" id="toc-where-should-i-invest" class="nav-link" data-scroll-target="#where-should-i-invest">Where should I invest?</a></li>
+  <li><a href="#bottom-line" id="toc-bottom-line" class="nav-link" data-scroll-target="#bottom-line">Bottom-line</a></li>
+  <li><a href="#faqs" id="toc-faqs" class="nav-link" data-scroll-target="#faqs">FAQs</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Financial planning is a comprehensive evaluation of an individual’s current pay and future financial state using known variables to predict future income, asset values, and withdrawal plans. In other words, it is a step-by-step approach to meeting one’s life goals. Planning begins with a thorough evaluation of the person’s current financial state and future expectations and may be created independently or with the help of a certified financial planner.</p>
+</section>
+<section id="steps-to-build-the-plan" class="level1">
+<h1>Steps to Build the plan</h1>
+<section id="what-is-my-net-worth" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-my-net-worth">What is my net worth?</h2>
+<p>Your net worth is the difference between your assets and liabilities.</p>
+<ul>
+<li><p><strong>Assets:</strong>&nbsp;Real Estate, Cars, Savings in the bank, Precious metals and stones, Investments, PPFs, EPFs.</p></li>
+<li><p><strong>Liabilities:</strong>&nbsp;Credit Card Debt, Home loans, Student debt, Mortgages.</p></li>
+</ul>
+<p>A positive net worth indicates you have more assets than your liabilities. If you have a negative net worth, your immediate plan should be to reduce your liabilities and improve your current financial health. Sound financial planning requires a positive net worth.</p>
+</section>
+<section id="what-are-my-goals" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-my-goals">What are my goals?</h2>
+<p>What is the ultimate aim of this financial plan? Is it retirement? Is it a child’s education? One must have a clear goal before charting a strategy to achieve the same. These goals could be further divided based on their urgency/ timing. An example could be</p>
+<ul>
+<li><p>Short Term: Buying a car, getting married</p></li>
+<li><p>Medium Term: Foreign Vacation</p></li>
+<li><p>Long Term: Educating and marrying kids, retirement</p></li>
+</ul>
+</section>
+<section id="how-much-money-do-i-need" class="level2">
+<h2 class="anchored" data-anchor-id="how-much-money-do-i-need">How much money do I need?</h2>
+<p>This is the end-term amount required to lead an independent life. This is usually post-retirement when you do not draw a fixed salary and are dependent on your investments. These could be Systematic Withdrawal Plans, Unit Linked Insurance Plans (ULIPs), dividends from shares, real estate rent, etc. Estimate the figure by factoring in the inflation. This figure would greatly depend on your current financial health.</p>
+</section>
+<section id="how-much-risk-can-i-take" class="level2">
+<h2 class="anchored" data-anchor-id="how-much-risk-can-i-take">How much risk can I take?</h2>
+<p>Risk and reward go hand in hand. Striking a balance between the two is essential for realising your plan. High, medium, or low risk will depend on age, liabilities, income, dependents, investments, and work area.</p>
+</section>
+<section id="where-should-i-invest" class="level2">
+<h2 class="anchored" data-anchor-id="where-should-i-invest">Where should I invest?</h2>
+<p>When planning for the future, choosing a suitable asset class is work half done. Planning and execution is a lifelong skill and takes years to master. Investment is a similar skill that requires precise planning and execution. The decisions you make today have a significant impact on your future returns. The easiest way to ease this panning process is by investing via mutual funds. A mutual fund is a financial instrument wherein capital from many investors is pooled to form an investment product. The fund manager then supports across financial instruments to realise the fund’s investment goal. Check out this blog to choose the best mutual funds! Equity mutual funds are an excellent way to generate long-term, inflation-beating returns.</p>
+<p>Long-term wealth creation is not a linear process. There are multiple ups and downs along the journey. These events can sometimes span for several months or even years. It is of utmost importance to have an asset that is seldom influenced by the market and acts as an excellent store of value. Tis Gold!</p>
+<p>Seasoned investors have always regarded gold as a safe-haven asset. It has an excellent store of value and often acts as a hedge against inflation. However, physical gold has its limitations;</p>
+<ul>
+<li><p>It is not readily liquid</p></li>
+<li><p>It is prone to theft and damage</p></li>
+<li><p>Initial investing value is very high</p></li>
+</ul>
+<p>Digital Gold is an online Gold alternative which enables you to hold gold virtually without owning a safe or bank locker. The seller keeps an equivalent weight of physical gold in a secure vault for each online purchase.</p>
+<p>Insurance is another financial instrument that is a must-have in your plan. It offers you a protective financial cover against the various contingencies in life. For the many uncertainties that life throws your way, there are different types of insurance that you can bank on. Primarily, insurance for individuals is categorised as Life Insurance and General Insurance. Life Insurance offers a cover on the life of the policyholder. General Insurance, on the other hand, comes in many different forms. Motor Insurance for your vehicles, Home Insurance for your house, and even Travel Insurance for your vacations or business travels. And most importantly, there’s Health Insurance, which offers you a bankable cover for medical emergencies.</p>
+</section>
+<section id="bottom-line" class="level2">
+<h2 class="anchored" data-anchor-id="bottom-line">Bottom-line</h2>
+<p>Financial planning is all about getting your finances right. It is an evolving process and requires constant checks over its course. Furthermore, there is no ‘one model fits all’ when planning for the future. Most plans must be tailor-made to an individual’s requirements and require time and effort. This is where the role of a financial advisor comes in. They are responsible for planning and helping you realise your goals. So the next time you decide to buy that new phone on the market, wait, take a deep breath and think, do you need it? Or could you save up and plan your finances!</p>
+</section>
+<section id="faqs" class="level2">
+<h2 class="anchored" data-anchor-id="faqs">FAQs</h2>
+<p><strong>What is the right time to make a financial plan?</strong></p>
+<p>There is no right time per se. The earlier you plan the better your chances of realising your goals. Furthermore, you must have some tangible salary/amount to start off with.</p>
+<p><strong>Who can be a financial advisor?</strong></p>
+<p>It is imperative to look for individuals who are SEBI registered financial advisors. They are well versed in the process of making a plan and getting the best ROIs for you.</p>
+<p><br>
+</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

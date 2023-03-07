@@ -1,0 +1,142 @@
+---
+author: "Shlok Kamat"
+date: "2022-12-26"
+toc: true
+description: "Just enough math to get by"
+image: "math.png"
+categories:  [machine learning, mathematics]
+title: "Math for ML [Part 1]"
+---
+
+# Introduction
+
+When working with Machine Learning projects, you will come across a wide variety of equations that you need to implement in code. Mathematical notations capture a concept so eloquently but unfamiliarity with them makes them obscure.
+
+In this post, I'll be explaining the most common math notations by connecting it with its analogous concept in Python. Once you learn them, you will be able to intuitively grasp the intention of an equation and be able to implement it in code.
+
+$$
+\frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y_i})^2
+$$
+
+## Indexing
+
+$$
+x_i
+$$
+
+This symbol is taking the value at $$i^{th}$$ index of a vector.
+
+``` python
+
+x = [10, 20, 30]
+
+i = 0
+
+print(x[i]) # 10
+```
+
+This can be extended for 2D vectors and so on.
+
+$$
+x_{ij}
+$$
+
+``` python
+
+x = [ [10, 20, 30], [40, 50, 60] ]
+
+i = 0
+
+j = 1
+
+print(x[i][j]) # 20
+```
+
+## Sigma
+
+$$
+\sum_{i=1}^{N} x_i
+$$
+
+This symbol finds the sum of all elements in a vector for a given range. Both lower and upper limits are inclusive. In Python, it is equivalent to looping over a vector from index 0 to index N-1. Notice how we're using the previously explained $$x_i$$ symbol to get the value at index.
+
+``` python
+
+x = [1, 2, 3, 4, 5]
+
+result = 0
+
+N = len(x)
+
+for i in range(N):
+
+    result = result + x[i]
+
+print(result)
+```
+
+The above code can even be shortened using built-in functions in Python as
+
+``` python
+
+x = [1, 2, 3, 4, 5]
+
+result = sum(x)
+```
+
+## Average
+
+$$
+\frac{1}{N}\sum_{i=1}^{N} x_i
+$$
+
+Here we reuse the sigma notation and divide by the number of elements to get an average.
+
+``` python
+
+x = [1, 2, 3, 4, 5]
+
+result = 0
+
+N = len(x)
+
+for i in range(N):
+
+    result = result + x[i]
+
+average = result / N
+
+print(average)
+```
+
+The above code can even be shortened in Python as
+
+``` python
+
+x = [1, 2, 3, 4, 5]
+
+result = sum(x) / len(x)
+```
+
+## PI
+
+$$
+\prod_{i=1}^{N} x_i
+$$
+
+This symbol finds the product of all elements in a vector for a given range. In Python, it is equivalent to looping over a vector from index 0 to index N-1 and multiplying them.
+
+``` python
+
+x = [1, 2, 3, 4, 5]
+
+result = 1
+
+N = len(x)
+
+for i in range(N):
+
+    result = result * x[i]
+
+print(result)
+```

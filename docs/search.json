@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
     "objectID": "posts/digital-gold/index.html",
     "href": "posts/digital-gold/index.html",
     "title": "What is Digital Gold?",
@@ -46,7 +32,7 @@
     "href": "index.html",
     "title": "Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n0 min\n\n\n\n\n\n\nHarlow Malloc\n\n\nMar 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n0 min\n\n\n\n\n\n\nTristan O’Malley\n\n\nMar 4, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is Digital Gold?\n\n\n3 min\n\n\nDigital gold investing basics\n\n\n\nShlok Kamat\n\n\nOct 14, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWhat is Digital Gold?\n\n\n3 min\n\n\nDigital gold investing basics\n\n\n\nShlok Kamat\n\n\nOct 14, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",

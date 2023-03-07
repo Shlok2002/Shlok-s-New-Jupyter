@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/digital-gold/index.html",
+    "href": "posts/digital-gold/index.html",
+    "title": "What is Digital Gold?",
+    "section": "",
+    "text": "Gold has been a reliable investment option and a symbol of wealth since ages, getting passed on from mothers and grandmothers down to the younger generations. It is believed that all of the gold present in the earth's crust has been mined; there is very little possibility of finding more reserves of this metal and hence it is deemed to be precious. All the gold available to us today is in circulation and hence there is no 'store' from which 'new' gold can be added into circulation. This has resulted in gold having tremendous store value and hence is considered very stable in terms of its returns.\nDigital Gold is the new, and much more efficient iteration of storing this lustrous asset. This risk-free, storage-proof investment instrument is a perfect blend of both technology and the traditional importance Gold has."
+  },
+  {
+    "objectID": "posts/digital-gold/index.html#what-is-digital-gold",
+    "href": "posts/digital-gold/index.html#what-is-digital-gold",
+    "title": "What is Digital Gold?",
+    "section": "What is Digital Gold?",
+    "text": "What is Digital Gold?\nBefore going any further, it's important to cover this question. Digital gold is an online Gold alternative which enables you to hold gold virtually without owning a safe or bank locker. The seller keeps an equivalent weight of physical gold in a secure vault for each online purchase.\nBenefits of Adopting Digital Gold\n\nTaxation: Returns on digital gold assets held for less than 36 months are not strictly taxable. In the case of long-term capital gains, one would have to pay a 20 percent tax on the whole amount, plus a surcharge and a 4% cess with indexation benefits. This is great for investors who want to build an emergency fund in the short to medium term.\nStorage: One does not have to pay bank locker rent, insurance cover or additional investment of Fixed Deposit (FD). The seller promises that the digital gold is stored in an insured, secured vault at no extra cost.\nLiquidity: Digital gold can be sold or redeemed at the click of a button. You can sell the digital gold instantly and the value of your gold is instantly transferred into your bank account through a 24x7 market-linked rate.\nPortfolio Diversification: It is a good investment option for portfolio diversification and a good hedge asset. Making charges: Gold in jewellery form attracts at least 8%, making charges and the price of gold while buying it. This increases the buying cost and depreciation of returns; thus, investors now tend to buy digital gold free from any form of making charges.\nInvest in small amounts: There is no minimum threshold to buy digital gold. One can start investing with as low as INR 10. This surely helps in accumulating assets over a long period of time.\n\nDigital gold is the perfect instrument to begin your investment journey. It is a great way to create robust long-term wealth. One can invest in fractions as low as INR 10 and there is no cap on your investment too."
+  },
+  {
+    "objectID": "posts/digital-gold/index.html#parting-words",
+    "href": "posts/digital-gold/index.html#parting-words",
+    "title": "What is Digital Gold?",
+    "section": "Parting Words",
+    "text": "Parting Words\nIn a time where investments are subject to market risks, the yellow metal has always emerged as a consistent performer. With wider adoption of digitalisation, digital gold stands a very strong chance to emerge as a powerful investment instrument."
+  },
+  {
+    "objectID": "posts/digital-gold/index.html#faqs",
+    "href": "posts/digital-gold/index.html#faqs",
+    "title": "What is Digital Gold?",
+    "section": "FAQs",
+    "text": "FAQs\nWho holds onto the gold when I invest digitally?\nBacking for the physical gold is provided by the following players:\nAugmont Limited, a joint venture between state-owned Metals and Minerals Trading Corporation of India (MMTC) and Produits Artistiques Métaux Précieux, Switzerland (PAMP) SafeGold brand of Digital Gold India Pvt. Ltd.\nCan I redeem my digital asset into physical form?\nYes, one can redeem his/her digital gold into physical form by requesting for physical delivery of the same. Do keep in mind that you would have to pay making charges for the same.\nWhat are the costs associated with owning digital gold?\nOne has to pay 3% GST when placing the order to buy digital gold."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n0 min\n\n\n\n\n\n\nHarlow Malloc\n\n\nMar 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n0 min\n\n\n\n\n\n\nTristan O’Malley\n\n\nMar 4, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is Digital Gold?\n\n\n3 min\n\n\nDigital gold investing basics\n\n\n\nShlok Kamat\n\n\nOct 14, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About the Author",
+    "section": "",
+    "text": "Analytics, Finance and Green Energy\n\n\n\nTECHNICAL SKILLS\n\n\n\nProgramming/Data Science: SQL (Postgres, MySQL), Python (pandas, numpy, scikit-learn, matplotlib, seaborn, NetworkX), R, RStudio\n\n\nBI/Cloud: Tableau, Vertex-AI on Google Cloud Platform (Auto-ML), Looker Data Studio\n\n\n\nKEY STRENGTHS\n\n\n\nOperational, Product & Data Analytics, Content Strategy & Business Development, Stakeholder Management & Sales Presentation\n\n\n\n\nI am an undergraduate student at Shiv Nadar Institution of Eminence majoring in electrical and electronics engineering. At university, I research modern machine learning algorithms for applications in content creation, finance, and energy analytics. I enjoy performing exploratory data analyses on public data sets and creating beautiful and intuitive visualisations. I am interested in leveraging the power of data to solve complex business problems in renewable energy and green finance.\n\n\nI have a diverse portfolio of work experiences in technical, business and marketing segments from my internships. I thrive in entrepreneurial environments collaborating with cross-functional and dynamic teams, solving complex problems."
+  }
+]

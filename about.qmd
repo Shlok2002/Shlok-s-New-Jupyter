@@ -1,0 +1,47 @@
+---
+title: "About the Author"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/shlokkamat/
+    - icon: github
+      text: Github
+      href: https://github.com/Shlok2002
+---
+
+<h2>Analytics, Finance and Green Energy</h2>
+
+</center>
+
+<center>
+
+<h3>TECHNICAL SKILLS</h3>
+
+</center>
+
+<p><strong>Programming/Data Science:</strong> SQL (Postgres, MySQL), Python (pandas, numpy, scikit-learn, matplotlib, seaborn, NetworkX), R, RStudio</p>
+
+<p>
+
+<strong>BI/Cloud:</strong> Tableau, Vertex-AI on Google Cloud Platform (Auto-ML), Looker Data Studio
+
+<hr>
+
+<center>
+
+<h3>KEY STRENGTHS</h3>
+
+</center>
+
+<ul>Operational, Product & Data Analytics, Content Strategy & Business Development, Stakeholder Management & Sales Presentation</ul>
+
+<hr>
+
+<br />
+
+<p>I am an undergraduate student at Shiv Nadar Institution of Eminence majoring in electrical and electronics engineering. At university, I research modern machine learning algorithms for applications in content creation, finance, and energy analytics. I enjoy performing exploratory data analyses on public data sets and creating beautiful and intuitive visualisations. I am interested in leveraging the power of data to solve complex business problems in renewable energy and green finance.</p>
+
+<p>I have a diverse portfolio of work experiences in technical, business and marketing segments from my internships. I thrive in entrepreneurial environments collaborating with cross-functional and dynamic teams, solving complex problems.</p>

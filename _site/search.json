@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 7, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 4, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About the Author",
+    "section": "",
+    "text": "Analytics, Finance and Green Energy\n\n\n\nTECHNICAL SKILLS\n\n\n\nProgramming/Data Science: SQL (Postgres, MySQL), Python (pandas, numpy, scikit-learn, matplotlib, seaborn, NetworkX), R, RStudio\n\n\nBI/Cloud: Tableau, Vertex-AI on Google Cloud Platform (Auto-ML), Looker Data Studio\n\n\n\nKEY STRENGTHS\n\n\n\nOperational, Product & Data Analytics, Content Strategy & Business Development, Stakeholder Management & Sales Presentation\n\n\n\n\nI am an undergraduate student at Shiv Nadar Institution of Eminence majoring in electrical and electronics engineering. At university, I research modern machine learning algorithms for applications in content creation, finance, and energy analytics. I enjoy performing exploratory data analyses on public data sets and creating beautiful and intuitive visualisations. I am interested in leveraging the power of data to solve complex business problems in renewable energy and green finance.\n\n\nI have a diverse portfolio of work experiences in technical, business and marketing segments from my internships. I thrive in entrepreneurial environments collaborating with cross-functional and dynamic teams, solving complex problems."
+  }
+]

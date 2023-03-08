@@ -10,7 +10,7 @@ title: "What is NFT?"
 
 ## Background
 
-Jack Dorsey sells his first tweet ever as an NFT for \$2.9 million, read the headline of major business newspapers on 24th March 2021. A year later, Twitter is going private, all thanks to Elon Musk, in what is said to be the largest Leveraged buyout (LBO) ever. Both Jack Dorsey and Elon Musk are successful entrepreneurs who have voiced their support for the Blockchain Revolution. This revolution is not going away anytime soon! Let\'s get back to the question, can you sell a tweet? How do you do it, and what is that N-F-T doing there in the headline?
+Jack Dorsey sells his first tweet ever as an NFT for \$2.9 million, read the headline of major business newspapers on 24th March 2021. A year later, Twitter is going private, all thanks to Elon Musk, in what is said to be the largest Leveraged buyout (LBO) ever. Both Jack Dorsey and Elon Musk are successful entrepreneurs who have voiced their support for the Blockchain Revolution. This revolution is not going away anytime soon! Let's get back to the question, can you sell a tweet? How do you do it, and what is that N-F-T doing there in the headline?
 
 ## What is an NFT?
 
@@ -28,7 +28,7 @@ This token is then stored on the blockchain, and you, the artist, become the own
 
 ## Specifics of an NFT
 
-It is important to note that the artwork itself is not stored in the blockchain; only its attributes like hash, name and a link to the actual artwork are stored in the block. Also, one must keep in mind that you often do not get a physical copy of the original artwork and most of the time, anyone can download a physical copy for free. The NFT only represents proof of ownership. It gives you exclusive \'digital bragging rights.
+It is important to note that the artwork itself is not stored in the blockchain; only its attributes like hash, name and a link to the actual artwork are stored in the block. Also, one must keep in mind that you often do not get a physical copy of the original artwork and most of the time, anyone can download a physical copy for free. The NFT only represents proof of ownership. It gives you exclusive 'digital bragging rights.
 
 NFTs are not limited to pieces of digital artwork, though a bulk of the market comprises these; NFTs can also include concert tickets, domain names, in-game limited edition items, real estate and anything that is unique and requires proof of ownership. The prices of NFTs are not uniform and depend on supply-demand characteristics. A word of caution: an expensive NFT becomes worthless if no one wants to buy it!
 

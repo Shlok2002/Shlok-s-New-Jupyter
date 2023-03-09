@@ -6,7 +6,8 @@ website:
   title: "Shlok's Jupyter"
   navbar:
     right:
-      - about.qmd
+      - href: about.qmd
+        text: About Me
       - icon: github
         href: https://github.com/Shlok2002
       - icon: linkedin

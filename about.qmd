@@ -10,6 +10,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/Shlok2002
+    - icon: envelope
+      text: Contact me
+      href: mailto:ks649@snu.edu.in
 ---
 
 <h2>Analytics, Finance and Green Energy</h2>

@@ -12,6 +12,8 @@ website:
         href: https://github.com/Shlok2002
       - icon: linkedin
         href: https://www.linkedin.com/in/shlokkamat/
+      - text: Website
+        href: https://shlok-kamat.github.io/
 format:
   html:
     theme: cosmo

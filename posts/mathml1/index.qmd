@@ -4,7 +4,7 @@ date: "2022-12-26"
 toc: true
 description: "Just enough math to get by"
 image: "math.png"
-categories:  [machine learning, mathematics]
+categories:  [machine learning]
 title: "Math for ML [Part 1]"
 ---
 

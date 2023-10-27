@@ -4,7 +4,7 @@ date: "2022-09-23"
 toc: true
 description: "A ready reckoner for mutual funds"
 image: "Types-of-Mutual-Funds-2.png"
-categories: [mutual funds, finance]
+categories: [mutual funds, investment]
 title: "Types of mutual funds"
 ---
 

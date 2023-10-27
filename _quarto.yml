@@ -16,7 +16,7 @@ website:
         href: https://shlok-kamat.github.io/
 format:
   html:
-    theme: cosmo
+    theme: journal
     css: styles.css
 
 editor: visual

@@ -4,7 +4,7 @@ date: "2023-03-22"
 toc: true
 description: "What to look for before diving in?"
 image: "ipo-1.jpg"
-categories: [finance, mutual funds]
+categories: [finance]
 title: "IPO Investing"
 ---
 
@@ -16,20 +16,20 @@ Had you invested ₹10,000 in Infosys' 1993 IPO, you would have a little over 2 
 
 An IPO is an offer in which a company decides to go public by registering itself and listing on the stock exchanges. There can be multiple reasons that a company decides to go public; these include but are not limited to
 
-- Raise money for CAPEX purposes
-- Raise money to prepay/repay outstanding debt (loans)
-- Facilitate current investors to exit the company
-- Going public in an IPO can provide companies with a tremendous amount of publicity
-- Companies may want the standing and gravitas that often come with being a public company, which may help them secure better terms from lenders
+-   Raise money for CAPEX purposes
+-   Raise money to prepay/repay outstanding debt (loans)
+-   Facilitate current investors to exit the company
+-   Going public in an IPO can provide companies with a tremendous amount of publicity
+-   Companies may want the standing and gravitas that often come with being a public company, which may help them secure better terms from lenders
 
 ## How to analyse an IPO
 
 Behind every IPO, there is a company that has a legitimate business. When you buy shares, you buy a part of that business. Analysing a business may be complex, but having a basic outline to analyse IPOs is a must for investors seeking to invest in them. Following are the things to take notice of while exploring IPOs
 
-- Type of Issue
-- Reason for IPO
-- Performance of the company
-- Subscription of the issue
+-   Type of Issue
+-   Reason for IPO
+-   Performance of the company
+-   Subscription of the issue
 
 ### Type of Issue
 
@@ -49,10 +49,9 @@ An IPO window is usually open between 4-7 days. This is the duration where inves
 
 ## Bottom Line
 
-The stock market is all about timing – when you enter and exit the market. Sometimes, the timing is correct during the IPO; sometimes, it’s better to wait. Make a decision depending on how much risk can you take and how good the fundamentals of the business are concerning its valuation. Be sceptical. When it comes to the IPO market, a suspicious and informed investor is likely to fare better.
+The stock market is all about timing -- when you enter and exit the market. Sometimes, the timing is correct during the IPO; sometimes, it's better to wait. Make a decision depending on how much risk can you take and how good the fundamentals of the business are concerning its valuation. Be sceptical. When it comes to the IPO market, a suspicious and informed investor is likely to fare better.
 
----
-
+------------------------------------------------------------------------
 
 ## FAQs
 
@@ -67,4 +66,3 @@ In some public issues, the company going public keeps a special reservation for 
 ### What is ASBA?
 
 Applications Supported by Blocked Amount (ASBA) is a method developed by SEBI to block the funds for Initial Public Offer (IPO), Rights issue, Follow-on Public Offer (FPO) etc., applications. In ASBA, an IPO applicant's bank account doesn't get debited until they receive the allotment of shares.
-

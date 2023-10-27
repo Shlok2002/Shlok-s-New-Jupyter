@@ -4,7 +4,7 @@ date: "2022-12-15"
 toc: true
 description: "The what and how of factor investing"
 image: "fi.jpg"
-categories: [finance]
+categories: [investment]
 title: "Factor Investing"
 ---
 

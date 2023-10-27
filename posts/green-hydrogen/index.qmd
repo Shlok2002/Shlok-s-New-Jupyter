@@ -24,9 +24,9 @@ However, the PEM electrolyze technology is expected to be the fastest growing as
 
 Hydrogen (H2) is the lightest and smallest element on the periodic table. It can be used for clean burning, zero emission fuel to store and harness energy. Hydrogen has many different use cases as it is both versatile and transportable. Currently, Hydrogen is used not only as a fuel and storage of energy, but also as a feedstock/raw material in machine or industrial processes.
 
-*Source: Australia\'s Commonwealth Scientific and Industrial Research Organization (CSIRO): National Hydrogen Roadmap*
+*Source: Australia's Commonwealth Scientific and Industrial Research Organization (CSIRO): National Hydrogen Roadmap*
 
-**Heat uses:** Hydrogen can be used as a source of heat for industrial sectors such as steel, cement, aluminum, paper and building either directly or by blending hydrogen with natural gas to reduce carbon emissions. However, there are some cost challenges for Hydrogen\'s commercial viability, the carbon prices would still need to be raised to \$50--60/tCO2eq for industries like steel and cement and to \$160/tCO2eq for space and water heating up to the year 2050 .
+**Heat uses:** Hydrogen can be used as a source of heat for industrial sectors such as steel, cement, aluminum, paper and building either directly or by blending hydrogen with natural gas to reduce carbon emissions. However, there are some cost challenges for Hydrogen's commercial viability, the carbon prices would still need to be raised to \$50--60/tCO2eq for industries like steel and cement and to \$160/tCO2eq for space and water heating up to the year 2050 .
 
 **Feedstock uses:** Industry chemicals such as plastics, fertilizers and fuel refining and products such as iron, steel, glass, metallurgy, and agriculture require raw materials/feedstock that usually comes from fossil fuels as a part of manufacturing lifecycle and hydrogen could be an alternative.
 
@@ -40,11 +40,11 @@ Additionally, the US National Grid has recently secured \$12.45 million in fundi
 
 The global space propulsion market is projected to grow from USD 6.7 billion in 2020 to USD 14.2 billion by 2025, at a CAGR of 16.2% from 2020 to 2025. Similarly, the global hydrogen fuel cell market is forecast to reach USD 848 million by 2025 from an estimated value of USD 263 million in 2020, growing at a CAGR of 26.4% during the forecast period.
 
-NASA for example has long been relying on hydrogen as the primary rocket fuel for its space exploration activities --- delivery of crew and cargo to space (Centaur, Apollo, and other space shuttle vehicles). From these use cases, NASA has both demonstrated and developed extensive experience in the safe and effective handling of hydrogen. Typically, about 500,000 gallons of cold liquid hydrogen (LH2) is needed for the rocket engines of each. The United Launch Alliance (ULA) Atlas Centaur stage rocket, Boeing\'s Delta III and IV rockets, and Blue Origin\'s BE-3 and BE-7 engines all use LH2 rocket fuel.
+NASA for example has long been relying on hydrogen as the primary rocket fuel for its space exploration activities --- delivery of crew and cargo to space (Centaur, Apollo, and other space shuttle vehicles). From these use cases, NASA has both demonstrated and developed extensive experience in the safe and effective handling of hydrogen. Typically, about 500,000 gallons of cold liquid hydrogen (LH2) is needed for the rocket engines of each. The United Launch Alliance (ULA) Atlas Centaur stage rocket, Boeing's Delta III and IV rockets, and Blue Origin's BE-3 and BE-7 engines all use LH2 rocket fuel.
 
 *Source: MarketsandMarkets Research Private Ltd*
 
-In September 2020, Airbus announced three concepts for the world\'s first zero-emission (ZEROe) commercial aircraft which could be ready by 2035. All these concepts depend on hydrogen as a primary power source to be a solution for aerospace and many other industries to meet their climate-neutral targets. All three concepts utilize liquid hydrogen fuel to power modified gas turbine aircraft engines. These concepts consist of a set of different approaches to achieve zero-emission flight by exploring various technology pathways and aerodynamic configurations for the decarbonization of the entire aviation industry. The first concept has hydrogen turbofans providing lift for up to 200 passengers with a range of 2,000+ miles. The second concept revolves around a smaller hydrogen turboprop design to carry up to 100 passengers with a range of 1,000+ miles. The third concept is to configure a bold blended-wing body design that offers enhanced flexibility for hydrogen storage and distribution as well as cabin layout .
+In September 2020, Airbus announced three concepts for the world's first zero-emission (ZEROe) commercial aircraft which could be ready by 2035. All these concepts depend on hydrogen as a primary power source to be a solution for aerospace and many other industries to meet their climate-neutral targets. All three concepts utilize liquid hydrogen fuel to power modified gas turbine aircraft engines. These concepts consist of a set of different approaches to achieve zero-emission flight by exploring various technology pathways and aerodynamic configurations for the decarbonization of the entire aviation industry. The first concept has hydrogen turbofans providing lift for up to 200 passengers with a range of 2,000+ miles. The second concept revolves around a smaller hydrogen turboprop design to carry up to 100 passengers with a range of 1,000+ miles. The third concept is to configure a bold blended-wing body design that offers enhanced flexibility for hydrogen storage and distribution as well as cabin layout .
 
 Nevertheless, the airports will require significant hydrogen transport and refueling infrastructure to meet the needs of day-to-day operations from an infrastructure perspective. Government subsidies and support will be key to further advance the use of sustainable fuels and the renewal of aircraft fleets to allow airlines to retire older, less environmentally friendly aircraft earlier.
 
@@ -62,11 +62,11 @@ In addition, the widespread viability of hydrogen for global commercial uses dep
 
 In 2019, hydrogen demand was 70mt with major use in ammonia synthesis, oil refinery, and steel production; there are not many uses in the energy industry. It is projected to reach nearly 300 mt in 2050.
 
-Currently, hydrogen is mainly produced via reforming of natural gas, and the hydrogen is called \"gray\" hydrogen because it is derived from fossil fuels. The process emits up to 2% of total CO2 emission in the world, and because of the higher expectation of hydrogen as a next energy source, a demand for more cleaner ways of producing hydrogen is increasing. If carbon dioxide emitted from the \"gray\" hydrogen production process gets captured before it is released to the atmosphere, the hydrogen is called \"blue\". Nowadays, \"green\" hydrogen has attracted many players; \"green\" hydrogen uses renewable energy to electrolyze water to split hydrogen and oxygen. Now the production cost of grey hydrogen is \$1/kg, and the cost of green hydrogen is \$3--7.5lkg. Since the cost of renewable energy is getting lower, there is a prediction that the cost of green hydrogen could go down to \$2/kg.
+Currently, hydrogen is mainly produced via reforming of natural gas, and the hydrogen is called "gray" hydrogen because it is derived from fossil fuels. The process emits up to 2% of total CO2 emission in the world, and because of the higher expectation of hydrogen as a next energy source, a demand for more cleaner ways of producing hydrogen is increasing. If carbon dioxide emitted from the "gray" hydrogen production process gets captured before it is released to the atmosphere, the hydrogen is called "blue". Nowadays, "green" hydrogen has attracted many players; "green" hydrogen uses renewable energy to electrolyze water to split hydrogen and oxygen. Now the production cost of grey hydrogen is \$1/kg, and the cost of green hydrogen is \$3--7.5lkg. Since the cost of renewable energy is getting lower, there is a prediction that the cost of green hydrogen could go down to \$2/kg.
 
 -   Most often this compound is water, which is divided into hydrogen and oxygen.
 
--   If the electricity used comes from renewable sources, like wind and solar, the subsequent hydrogen is known as \"green.\"
+-   If the electricity used comes from renewable sources, like wind and solar, the subsequent hydrogen is known as "green."
 
 -   According to the International Energy Agency, less than 0.1% of hydrogen today is produced through water electrolysis, but that could soon change.
 
@@ -76,7 +76,7 @@ Currently, hydrogen is mainly produced via reforming of natural gas, and the hyd
 
 ### Cost
 
-1.  The key reason green hydrogen hasn\'t scaled is cost. Right now, it costs \$3--7 per kilogram to produce, compared with \$1 per kilogram when made with fossil fuels. But three critical factors have aligned in the last year to make it possible to bring that production cost down to between \$1 and \$2 by 2050.
+1.  The key reason green hydrogen hasn't scaled is cost. Right now, it costs \$3--7 per kilogram to produce, compared with \$1 per kilogram when made with fossil fuels. But three critical factors have aligned in the last year to make it possible to bring that production cost down to between \$1 and \$2 by 2050.
 
 2.  First, the cost of electrolyzes used to create hydrogen have dropped 50% in the last five years and are expected to fall at least another 60%-90% by 2030, which can start to make green hydrogen competitive to the gray hydrogen used in industries today.7 Falling renewable prices are also key to bringing down hydrogen costs: 60--75% of green hydrogen costs from electricity.
 
@@ -90,7 +90,7 @@ Governments across the globe are buying into green hydrogen, which is the most c
 
 2.  The Green Deal is tremendously ambitious and provides an instant source of demand, which is bound to be a catalyst for further innovation and cost reduction, not to mention enormous infrastructure development.
 
-Europe isn\'t the only place thinking along these lines. Australia, Japan, China, the UK, and Korea all have green hydrogen strategies and/or targets. Sectors we think could be clear beneficiaries include renewable energy, given that demand is likely to grow 10 times by 2050 to service the needs of green hydrogen alone. Utilities will play a role in converting gas grids so that they can carry hydrogen blended with natural gas. Companies that develop electrolyzes and fuel cells stand to benefit, and the chemicals and industrial gases industry is likely to play a large role, given its expertise in using and transporting hydrogen.
+Europe isn't the only place thinking along these lines. Australia, Japan, China, the UK, and Korea all have green hydrogen strategies and/or targets. Sectors we think could be clear beneficiaries include renewable energy, given that demand is likely to grow 10 times by 2050 to service the needs of green hydrogen alone. Utilities will play a role in converting gas grids so that they can carry hydrogen blended with natural gas. Companies that develop electrolyzes and fuel cells stand to benefit, and the chemicals and industrial gases industry is likely to play a large role, given its expertise in using and transporting hydrogen.
 
 ## Bottom Line
 

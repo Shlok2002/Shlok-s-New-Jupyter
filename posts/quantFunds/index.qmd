@@ -4,7 +4,7 @@ date: "2023-04-13"
 toc: true
 description: "Everything you need to know"
 image: "quant-funds.png"
-categories: [finance, mutual funds]
+categories: [mutual funds, investment]
 title: "Quant Funds"
 ---
 
